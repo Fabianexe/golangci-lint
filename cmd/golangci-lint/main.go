@@ -10,6 +10,8 @@ import (
 
 	"github.com/golangci/golangci-lint/v2/pkg/commands"
 	"github.com/golangci/golangci-lint/v2/pkg/exitcodes"
+
+	_ "github.com/golangci/custom-linter"
 )
 
 var (
